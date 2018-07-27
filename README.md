@@ -1,4 +1,4 @@
-# CycleCloud Project Spec DNA Variant Calling
+# CycleCloud Project for DNA Variant Calling
 
 A simple example that illustrates how one would install applications in a CycleCloud cluster.
 
