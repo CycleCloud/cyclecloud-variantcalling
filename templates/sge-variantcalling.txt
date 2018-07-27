@@ -1,8 +1,8 @@
 ############################
-## Anaconda with SGE
+## VaiantCalling with SGE
 ############################
 
-[cluster SGE-Anaconda]
+[cluster SGE-VaiantCalling]
 FormLayout = selectionpanel
 IconUrl = https://raw.githubusercontent.com/CycleCloud/cyclecloud-variantcalling/master/icon.png
 Category = Applications
