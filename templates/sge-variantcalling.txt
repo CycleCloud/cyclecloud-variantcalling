@@ -175,7 +175,7 @@ Order = 20
         [[[parameter AnacondaPackages]]]
         Label = Conda Packages
         Description = Space separated list of conda packages to install by default
-        DefaultValue = bwa bowtie2
+        DefaultValue = bwa bowtie2 samtools
 
         [[[parameter AnacondaEnvironments]]]
         Label = Conda Environments
