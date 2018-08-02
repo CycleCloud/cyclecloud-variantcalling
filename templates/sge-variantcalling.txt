@@ -1,8 +1,8 @@
 ############################
-## VaiantCalling with SGE
+## VariantCalling with SGE
 ############################
 
-[cluster SGE-VaiantCalling]
+[cluster SGE-VariantCalling]
 FormLayout = selectionpanel
 IconUrl = https://raw.githubusercontent.com/CycleCloud/cyclecloud-variantcalling/master/icon.png
 Category = Applications
@@ -65,7 +65,7 @@ Order = 1
         [[[parameter VariantCalling]]]
         HideLabel = true
         Config.Plugin = pico.widget.HtmlTemplateWidget
-        Config.Template := "<table><tr><td><img src='https://raw.githubusercontent.com/CycleCloud/cyclecloud-variantcalling/master/icon.png' width='192' height='192'></td></tr><tr><td><p>This cluster GATK-4, Picard, and common aligners (BWA, Bowtie2 etc) using Conda</p></td></tr></table>"
+        Config.Template := "<table><tr><td><img src='https://raw.githubusercontent.com/CycleCloud/cyclecloud-variantcalling/master/icon.png' width='192' height='192'></td></tr><tr><td><p>This cluster installs GATK-4 and Picard along side SGE.</p><p>Other common tools such as BWA, Bowtie2, and Samtools are also installed using Conda.</p></td></tr></table>"
 
         [[[parameter Readme]]]
         HideLabel = true
